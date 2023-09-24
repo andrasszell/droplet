@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "canisters": {
+    "droplet_create_backend": {
+      "type": "motoko",
+      "main": "src/droplet_create_backend/main.mo"
+    },
+    "droplet_create_frontend": {
+      "type": "assets",
+      "source": [
+        "src/droplet_create_frontend/assets"
+      ],
+      "dependencies": [
+        "droplet_create_backend"
+      ]
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  },
+  "output_env_file": ".env"
+}
