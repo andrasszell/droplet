@@ -1,17 +1,17 @@
 {
   "version": 1,
   "canisters": {
-    "droplet_create_backend": {
+    "send_http_get_backend": {
       "type": "motoko",
-      "main": "src/droplet_create_backend/main.mo"
+      "main": "src/send_http_get_backend/main.mo"
     },
-    "droplet_create_frontend": {
+    "send_http_get_frontend": {
       "type": "assets",
       "source": [
-        "src/droplet_create_frontend/assets"
+        "src/send_http_get_frontend/assets"
       ],
       "dependencies": [
-        "droplet_create_backend"
+        "send_http_get_backend"
       ]
     }
   },

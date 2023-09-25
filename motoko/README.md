@@ -1,17 +1,10 @@
+# send_http_get
 
-HTTP request to find the image code of a droplet.
-
-Not working sdo far :)
-
-
-************************************
-# droplet_create
-
-Welcome to your new droplet_create project and to the internet computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
+Welcome to your new send_http_get project and to the internet computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
 
 To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
 
-To learn more before you start working with droplet_create, see the following documentation available online:
+To learn more before you start working with send_http_get, see the following documentation available online:
 
 - [Quick Start](https://internetcomputer.org/docs/current/developer-docs/quickstart/hello10mins)
 - [SDK Developer Tools](https://internetcomputer.org/docs/current/developer-docs/build/install-upgrade-remove)
@@ -22,7 +15,7 @@ To learn more before you start working with droplet_create, see the following do
 If you want to start working on your project right away, you might want to try the following commands:
 
 ```bash
-cd droplet_create/
+cd send_http_get/
 dfx help
 dfx canister --help
 ```
